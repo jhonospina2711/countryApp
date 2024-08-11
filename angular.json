@@ -31,8 +31,15 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+<<<<<<< HEAD
               "src/favicon.ico",
               "src/assets"
+=======
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+>>>>>>> 5dbefe8 (initial commit)
             ],
             "styles": [
               "src/styles.css"
@@ -44,6 +51,7 @@
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
@@ -51,6 +59,15 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
+=======
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kB",
+                  "maximumError": "4kB"
+>>>>>>> 5dbefe8 (initial commit)
                 }
               ],
               "outputHashing": "all"
@@ -76,10 +93,14 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
+<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "countryApp:build"
           }
+=======
+          "builder": "@angular-devkit/build-angular:extract-i18n"
+>>>>>>> 5dbefe8 (initial commit)
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -90,8 +111,15 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+<<<<<<< HEAD
               "src/favicon.ico",
               "src/assets"
+=======
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+>>>>>>> 5dbefe8 (initial commit)
             ],
             "styles": [
               "src/styles.css"

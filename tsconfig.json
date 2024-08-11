@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+=======
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+>>>>>>> 5dbefe8 (initial commit)
 {
   "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
+<<<<<<< HEAD
     "forceConsistentCasingInFileNames": true,
+=======
+>>>>>>> 5dbefe8 (initial commit)
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -14,11 +22,18 @@
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
+<<<<<<< HEAD
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+=======
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+>>>>>>> 5dbefe8 (initial commit)
     "lib": [
       "ES2022",
       "dom"
