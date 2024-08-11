@@ -19,6 +19,10 @@ const routes: Routes = [
     component: ContactPageComponent
   },
   {
+    path: 'countries',
+    component: ContactPageComponent
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
